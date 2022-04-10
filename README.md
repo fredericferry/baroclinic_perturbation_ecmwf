@@ -1,5 +1,5 @@
 # perturb_era5
-Study of a baroclinic perturbation in ERA5 data
+Plot maps of various meteorological fields to study a baroclinic perturbation in ERA5 reanalysis data
 
 Note 1 : This code was developed for educationnal purposes, and for French students. So the comments in the notebook are in French but the graphics and legends are in English.
 
