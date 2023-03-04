@@ -1,17 +1,16 @@
-# perturb_era5
-Study a baroclinic perturbation in ERA5 reanalysis data with plots of various meteorological diagnostics
+# perturb_ecmwf
+Study a baroclinic perturbation in ECMWF data with plots of various meteorological diagnostics
 
 Note 1 : This code was developed for educationnal purposes, and for French students. So the comments in the notebook are in French but the graphics and legends are in English.
 
 Note 2 : If you have any comment/suggestion, if you find this code useful --> please send me an email : mailto:frederic.ferry@meteo.fr
 
-The ERA5 data needed to run the notebook (MSLP, z, u, v, t, pv, w, q) are NOT provided. They can be downloaded here :
-https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form
-https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-pressure-levels?tab=form
+The data needed to run the notebook (MSLP, z, u, v, t, pv, w, q) are NOT provided. They can be downloaded here :
+https://www.ecmwf.int/en/forecasts/dataset/operational-archive
 
 If you can't find the data ask me and I'll make it available for you.
 
-With the student notebook you will be able to compute and plot :
+With the notebook you will be able to compute and plot :
 - Thickness
 - Potential temperature
 - Equivalent Potential temperature (Metpy function)
@@ -22,8 +21,6 @@ With the student notebook you will be able to compute and plot :
 - Potential vorticity
 - Temperature advection
 - Differential vorticity advection
-
-With the full notebook you will be able to compute and plot more advanced diagnostics :
 - Interpolation of the isobaric potential vorticity on an isentropic surface (Metpy function)
 - Gostrophic forcing and its convergence/divergence (Q1, Q2, div(Q))
 - Frontogenesis and deformation field
