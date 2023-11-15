@@ -1,4 +1,4 @@
-# perturb_ecmwf
+# baroclinic_perturbation_ecmwf
 Study a baroclinic perturbation in ECMWF data with plots of various meteorological diagnostics
 
 Note 1 : This code was developed for educationnal purposes, and for French students. So the comments in the notebook are in French but the graphics and legends are in English.
